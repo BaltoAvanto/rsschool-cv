@@ -1,7 +1,7 @@
 # Roma Konstantinidi
 
 ## Contacts
-* Phone: +7 950 041 22 92
+* Phone: +7-950-041-22-92
 * E-mail: aeternahypocrita@gmail.com
 * GitHub: https://github.com/BaltoAvanto
 * Telegram: https://t.me/EternalProcrastination
