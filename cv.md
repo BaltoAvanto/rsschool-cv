@@ -17,9 +17,9 @@
 
 ## Some Code Examples
 
-   function myFunc ()<br/> {
+   function myFunc () { <br/> 
 		document.getElementById('loader').style.display = 'none';<br/>
-		document.getElementById('image').style.display = 'inline-block';
+		document.getElementById('image').style.display = 'inline-block';<br/>
 	}
 
 ## Education
