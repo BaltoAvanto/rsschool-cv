@@ -5,6 +5,7 @@
 - E-mail: aeternahypocrita@gmail.com
 - GitHub: https://github.com/BaltoAvanto
 - Telegram: https://t.me/EternalProcrastination
+- Discord: @BaltoAvanto or https://discordapp.com/users/318446059984781313/
 
 ## About me
 - I am 28, I have graduated from metrology and standardization. I worked for a year at a construction site and I didn't like it. During my studies, I worked part-time at a ski resort in the IT department and I liked it. Then I met a person who recommended web development to me. And here I am. My current goal is to gain knowledge in frontend development and find a job.
