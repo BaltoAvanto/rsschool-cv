@@ -19,6 +19,7 @@
 
    function myFunc () {
 		document.getElementById('loader').style.display = 'none';
+		
 		document.getElementById('image').style.display = 'inline-block';
 	}
 
