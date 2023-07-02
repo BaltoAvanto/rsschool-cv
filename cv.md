@@ -4,7 +4,7 @@
 * Phone: +7-950-041-22-92
 * E-mail: aeternahypocrita@gmail.com
 * GitHub: https://github.com/BaltoAvanto
-* Telegram: https://t.me/EternalProcrastination
+* Telegram: https://t.me/EternalProcrastination 
 * Discord: @BaltoAvanto or https://discordapp.com/users/318446059984781313/
 
 ## About me
