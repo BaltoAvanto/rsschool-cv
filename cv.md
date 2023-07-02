@@ -18,8 +18,7 @@
 ## Some Code Examples
 
    function myFunc () {
-		document.getElementById('loader').style.display = 'none';
-		
+		document.getElementById('loader').style.display = 'none';<br/>
 		document.getElementById('image').style.display = 'inline-block';
 	}
 
