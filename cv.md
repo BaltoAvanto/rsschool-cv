@@ -29,6 +29,6 @@
 -- HTML/CSS (in process...)
 
 ## Languages
-- Russian - Native
-- English - Upper-intermediate (according ot the online test https://www.efset.org/quick-check)
-- I worked for two years at a car factory , where I often had to communicate with Koreans in English on work issues
+* Russian - Native
+* English - Upper-intermediate (according ot the online test https://www.efset.org/quick-check)
+  * I worked for two years at a car factory , where I often had to communicate with Koreans in English on work issues
