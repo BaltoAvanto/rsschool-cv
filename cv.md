@@ -11,14 +11,14 @@
 
 ## Skills
 - HTML5,CSS3 ( in process..)
-- Git , GitHub
+- Git,GitHub
 - VS Code
 ## Some Code Examples
+
    function myFunc () {
 		document.getElementById('loader').style.display = 'none';
 		document.getElementById('image').style.display = 'inline-block';
 	}
-## Experience
 
 ## Education
 - Saint Petersburg State University of Architecture and Civil Engineering
@@ -28,4 +28,4 @@
 ## Languages
 - Russian - Native
 - English - Upper-intermediate (according ot the online test https://www.efset.org/quick-check)
--- I worked for two years at a car factory , where I often had to communicate with Koreans in English on work issues
+- I worked for two years at a car factory , where I often had to communicate with Koreans in English on work issues
