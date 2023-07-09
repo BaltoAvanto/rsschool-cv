@@ -7,9 +7,19 @@
   font-family: Romanesco-Regular;
   src: url("./assets/fonts/Romanesco-Regular.ttf");
 }
+@font-face {
+  font-family: Sawarabi Gothic;
+  src: url("./assets/fonts/SawarabiGothic-Regular.ttf");
+}
 
-* {
-  box-sizing: border-box;
+h1,
+h2,
+header {
+  font-family: "MontserratAlternates-Regular", sans-serif;
+}
+
+body {
+  font-family: "Sawarabi Gothic", sans-serif;
 }
 
 header {
