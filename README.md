@@ -1,4 +1,4 @@
 # rsschool-cv
 
-<br/>https://GITHUB-USERNAME.github.io/rsschool-cv/cv
-<br/>https://GITHUB-USERNAME.github.io/rsschool-cv/
+<br/>https://BaltoAvanto.github.io/rsschool-cv/cv
+<br/>https://BaltoAvanto.github.io/rsschool-cv/
