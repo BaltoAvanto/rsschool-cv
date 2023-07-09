@@ -10,13 +10,15 @@
   <body>
     <header class="header">
       <div class="container">
-        <h2>QQsiki</h2>
-        <img
-          src="./assets/img/logo.jpg"
-          alt="my photo xdd"
-          title="Ну нет у меня фоток, шито поделать"
-          class="photo"
-        />
+        <div class="header-content">
+          <img
+            src="./assets/img/logo.jpg"
+            alt="my photo xdd"
+            title="Ну нет у меня фоток, шито поделать"
+            class="photo"
+          />
+          <h1>Roma Konstantinidi</h1>
+        </div>
         <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item">
@@ -39,17 +41,15 @@
               <a href="#education" class="nav-link">Education</a>
             </li>
             <li class="nav-item">
-              <a href="#english" class="nav-link">English</a>
+              <a href="#languages" class="nav-link">English</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
+
     <main class="main">
       <div class="container">
-        <section class="section" id="profile">
-          <h1 class="section-title">Roma Konstantinidi</h1>
-        </section>
         <section class="section" id="contacts">
           <h2 class="section-title">Contacts</h2>
           <ul class="cont-list">
@@ -98,18 +98,19 @@
             <li>HTML5, CSS3 (in process..)</li>
             <li>Git, GitHub</li>
             <li>VS Code</li>
+            <li>Google</li>
           </ul>
         </section>
         <section class="section" id="code">
           <h2 class="section-title">Code</h2>
           <pre class="pre">
-				<code>
-		  function myFunc() {
-				document.getElementById('loader').style.display = 'none';
-				document.getElementById('image').style.display = 'inline-block';
-		  }
-				</code>
-			 </pre>
+  <code>
+    function myFunc() {
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('image').style.display = 'inline-block';
+    }
+  </code>
+</pre>
         </section>
         <section class="section" id="courses">
           <h2 class="section-title">Courses</h2>
@@ -149,8 +150,19 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a href="https://rs.school/js-stage0/" target="_blank">
+      <div class="container-footer">
+        <a
+          href="https://github.com/BaltoAvanto"
+          class="footer-link"
+          target="_blank"
+          >My GitHub</a
+        >
+        <p class="footer-year">2023</p>
+        <a
+          href="https://rs.school/js-stage0/"
+          target="_blank"
+          class="footer-logo"
+        >
           <img
             src="https://rs.school/images/rs_school_js.svg"
             alt="RS School logo"
@@ -158,13 +170,6 @@
             class="rslogo"
           />
         </a>
-        <p>
-          <br />
-          &copy; 2023
-          <br />
-          <a href="сhttps://github.com/BaltoAvanto">My GitHub</a>
-          <br />
-        </p>
       </div>
     </footer>
   </body>
