@@ -1,55 +1,104 @@
-/* Общие стили */
+@font-face {
+  font-family: MontserratAlternates-Regular;
+  src: url("./assets/fonts/MontserratAlternates-Regular.ttf");
+}
+
+@font-face {
+  font-family: Romanesco-Regular;
+  src: url("./assets/fonts/Romanesco-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px solid red;
+}
+
+main {
+  border: 1px solid red;
+}
+
+footer {
+  border: 1px solid red;
+}
 
 body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 200px; /* Установите нужную ширину для изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border: 1px solid #ccc; /* Пример рамки вокруг изображения */
+  border-radius: 500px; /* Пример скругления углов */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Пример тени */
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.rslogo {
+  width: 200px; /* Установите нужную ширину для изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border: 1px solid #ccc; /* Пример рамки вокруг изображения */
+  border-radius: 5px; /* Пример скругления углов */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Пример тени */
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-/* Стили для заголовков */
-
-h1 {
-	font-size: 24px;
-	font-weight: bold;
-	color: #333;
+.nav-list {
+  list-style-type: none; /* Убирает точки перед элементами списка */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-h2 {
-	font-size: 20px;
-	font-weight: bold;
-	color: #1900fd;
+.nav-item {
+  margin-bottom: 20px; /* Добавляет снизу  для разделения ссылок */
 }
 
-/* Стили для ссылок */
-
-a {
-	color: #007bff;
-	text-decoration: none;
+.nav-link {
+  color: #000; /* Устанавливает цвет текста ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  padding: 0 20px; /* Устанавливает отступы вокруг ссылки */
+  border-radius: 5px; /* Добавляет закругленные углы */
+  line-height: 50px;
+  transition: 0.8s;
+  background-color: #f2f2f2; /* Устанавливает цвет фона ссылки */
+  cursor: pointer;
 }
 
-a:hover {
-	text-decoration: underline;
+.nav-link:hover {
+  background-color: #ddd; /* Устанавливает цвет фона ссылки при наведении */
 }
 
-/* Пример стиля для кнопки */
-
-.button {
-	display: inline-block;
-	padding: 10px 20px;
-	background-color: #007bff;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 4px;
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.button:hover {
-	background-color: #0056b3;
+.section {
+  width: 50%;
 }
 
-/* Дополнительные стили... */
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
