@@ -10,7 +10,7 @@
 
 ## About me
 
-- I am 29, I have graduated from metrology and standardization. I worked for a year at a construction site and I didn’t like it. During my studies, I worked part-time at a ski resort in the IT department and I liked it. Then I met a person who recommended web development to me. And here I am. My current goal is to gain knowledge in frontend development and find a job
+- I am 29, I have graduated from metrology and standardization. I worked for a year at a construction site and I didn’t like it. During my studies, I worked part-time at a ski resort in the IT department and I liked it. Then I met a person who recommended web development to me. And here I am. My current goal is to gain knowledge in frontend development and find a job.
 
 ## Skills
 
