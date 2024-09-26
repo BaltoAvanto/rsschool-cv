@@ -1,0 +1,165 @@
+@font-face {
+  font-family: MontserratAlternates-Regular;
+  src: url("./assets/fonts/MontserratAlternates-Regular.ttf");
+}
+
+@font-face {
+  font-family: Romanesco-Regular;
+  src: url("./assets/fonts/Romanesco-Regular.ttf");
+}
+@font-face {
+  font-family: Sawarabi Gothic;
+  src: url("./assets/fonts/SawarabiGothic-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+header {
+  font-family: "MontserratAlternates-Regular", sans-serif;
+}
+
+body,
+p {
+  font-family: "Sawarabi Gothic", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 200px; /* Установите нужную ширину для изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border: 1px solid #ccc; /* Пример рамки вокруг изображения */
+  border-radius: 500px; /* Пример скругления углов */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Пример тени */
+}
+
+.rslogo {
+  width: 200px; /* Установите нужную ширину для изображения */
+  height: auto; /* Автоматическая высота для сохранения пропорций */
+  border: 1px solid #ccc; /* Пример рамки вокруг изображения */
+  border-radius: 5px; /* Пример скругления углов */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Пример тени */
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0; /* Добавлено */
+  margin: 0; /* Добавлено */
+}
+nav {
+  width: 100%; /* Добавлено */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Добавлено */
+  background-color: #f5f5f5;
+}
+
+.nav-item {
+  margin-bottom: 20px; /* Добавляет снизу  для разделения ссылок */
+}
+
+.nav-link {
+  color: #000; /* Устанавливает цвет текста ссылки */
+  text-decoration: none; /* Убирает подчеркивание */
+  padding: 0 20px; /* Устанавливает отступы вокруг ссылки */
+  border-radius: 5px; /* Добавляет закругленные углы */
+  line-height: 50px;
+  transition: 0.8s;
+  background-color: #f2f2f2; /* Устанавливает цвет фона ссылки */
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #ddd; /* Устанавливает цвет фона ссылки при наведении */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.footer-link {
+  margin-right: auto;
+}
+
+.footer-year {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.footer-logo {
+  margin-left: auto;
+}
+
+.pre {
+  margin-right: 10px; /* Отступ справа */
+  margin-top: 10px;
+  padding: 50px;
+  background-color: #979797;
+  color: #fff;
+  border-radius: 10px;
+  overflow-x: hidden;
+  width: auto; /* Изменено на auto */
+  display: inline-block; /* Добавлено */
+  font-family: monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+}
+
+.pre code {
+  font-size: 0.9rem; /* Размер шрифта для кода */
+  white-space: pre-wrap; /* Предотвращение автоматического переноса строки */
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
